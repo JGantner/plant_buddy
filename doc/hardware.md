@@ -6,7 +6,16 @@ The intended hardware platform for this project is the Raspberry Pi Pico 2.
 
 ### Temperature
 
-tbd.
+Plant buddy should be capable to measure the soil and air temperature of a
+plant. In addition it should be somehow extensible to add additional temperature
+sensors. Since the intention is to measure in the plant compatible temperature
+range i'd eyeball the range to be something between -30 °C to 80 °C with a
+resolution and accuracy of ~ 0.1 °C.
+
+[ ] List options for sensors
+[ ] Decide on sensor type
+[ ] Come up with initial idea for the measurement circuitry
+[ ] Come up with a concept of calibration
 
 ### Moisture
 
