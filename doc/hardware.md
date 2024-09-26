@@ -12,6 +12,13 @@ sensors. Since the intention is to measure in the plant compatible temperature
 range i'd eyeball the range to be something between -30 °C to 80 °C with a
 resolution and accuracy of ~ 0.1 °C.
 
+Possible sensors:
+
+- DHT22
+- PT100 / PT1000
+- DS 18B20
+- BME280m
+
 [ ] List options for sensors
 [ ] Decide on sensor type
 [ ] Come up with initial idea for the measurement circuitry
