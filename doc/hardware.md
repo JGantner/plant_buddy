@@ -14,12 +14,16 @@ resolution and accuracy of ~ 0.1 °C.
 
 Possible sensors:
 
-- DHT22
-- PT100 / PT1000
-- DS 18B20
-- BME280m
+<!-- prettier-ignore -->
+| Sensor   | Temperature Range [°C] | Temperature accuracy [°C] | Humidity Range [%RH ] | Humidity accuracy [%] |
+| -------- | ---------------------- | ------------------------- | --------------------- | --------------------- |
+| DHT22    | -40 - 80               | +- 0.5                    | 0 - 100               | 2-5                   |
+| PT1000   | -70 - 700              | +- 0.8                    | -                     | -                     |
+| PT 100   | -220- 700              | ~ +- 0.3                  | -                     | -                     |
+| DS 18B20 | -55 - 155              | +- 0.5 (-10 - +85)        | -                     | -                     |
+| BME280m  | -40 -85                | +- 0.5 (0 - 65)           | 0 - 100               | +-3                   |
 
-[ ] List options for sensors
+[X] List options for sensors
 [ ] Decide on sensor type
 [ ] Come up with initial idea for the measurement circuitry
 [ ] Come up with a concept of calibration
